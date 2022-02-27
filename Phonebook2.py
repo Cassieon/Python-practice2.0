@@ -40,3 +40,10 @@ while(True):
             else: print("Contact not deleted")
         if entry not in contacts.keys():
             print("Contact not found")
+    elif entry == 4:
+        for x, y in contacts.items():
+         print(x, y)
+        # if show_list == "Yes":
+        #     contacts.items()
+
+
