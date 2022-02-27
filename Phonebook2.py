@@ -22,3 +22,7 @@ while(True):
        if entry in contacts.keys():
             print(entry +" "+ contacts[entry])
        else: print("Contact not found")  
+    elif entry == 2:
+        contact_name = input("Enter contacts name:")
+        phone_number = input("Enter contacts number:")
+        contacts[contact_name] = phone_number
