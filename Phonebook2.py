@@ -29,4 +29,12 @@ while(True):
         contact_name = input("Enter contacts name:")
         phone_number = input("Enter contacts number:")
         contacts[contact_name] = phone_number
-
+        print("Contact added!")
+    elif entry == 3:
+        entry = input("Which contact would you like to delete?")
+        if entry in contacts.keys():
+            confirm = input("Are you sure you want to delete contact?")
+            if confirm == "Yes":
+                contacts.pop(entry)
+                print("Contact deleted")
+            else: print("Contact not deleted")
