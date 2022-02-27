@@ -38,3 +38,5 @@ while(True):
                 contacts.pop(entry)
                 print("Contact deleted")
             else: print("Contact not deleted")
+        if entry not in contacts.keys():
+            print("Contact not found")
