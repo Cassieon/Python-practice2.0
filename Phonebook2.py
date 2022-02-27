@@ -15,3 +15,10 @@ def phonebook():
         5. Quit 
         """)
 phonebook()
+
+while(True):
+    if entry == 1:
+       entry = input("What's contact name?")
+       if entry in contacts.keys():
+            print(entry +" "+ contacts[entry])
+       else: print("Contact not found")  
