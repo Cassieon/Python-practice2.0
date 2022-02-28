@@ -43,7 +43,11 @@ while(True):
     elif entry == 4:
         for x, y in contacts.items():
          print(x, y)
-        # if show_list == "Yes":
-        #     contacts.items()
-
+    elif entry == 5:
+        print("Goodbye!")
+        break
+    else: print("Invalid entry")
+while (False):
+    end 
+       
 
